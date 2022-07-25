@@ -12,7 +12,7 @@ function validateSrc() {
 
 // Function to setup fork button
 function setupForkButton() {
-    if (unr == "Itz-fork") {
+    if (unr == "dococ2022") {
         document.getElementById("fork").innerHTML = `<a class="github-button" href="https://github.com/Itz-fork" data-color-scheme="no-preference: dark_dimmed; light: dark_dimmed; dark: dark_dimmed;" data-size='large' aria-label="Follow @Itz-fork on GitHub">Follow @Itz-fork</a>`;
     } else {
         document.getElementById("fork").innerHTML = `<a class='github-button' href='https://github.com/${unr}' data-color-scheme='no-preference: dark_high_contrast; light: dark_dimmed; dark: dark_dimmed;' data-icon='octicon-repo-forked' data-size='large' data-show-count='true' aria-label='Fork ${unr} on GitHub'>Fork it!</a>`;
